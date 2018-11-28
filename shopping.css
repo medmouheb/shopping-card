@@ -1,0 +1,69 @@
+body
+{
+    background-color: rgba(126, 200, 85,1);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.toggle-item
+{
+    display: none !important; 
+}
+main
+{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    max-width: 1000px;
+}
+.total-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.badge
+{
+    background-color: red;
+}
+.glyphicon-shopping-cart
+{
+    font-size: 40px;
+}
+.total
+{
+    display: flex
+}
+img
+{
+    max-width: 50%;
+}
+.item
+{
+    display: flex;
+    border-top: 2px solid gray;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.item >div
+{
+    padding: 30px;
+}
+.glyphicon-heart
+{
+    font-size: 20px;
+}
+.show-red
+{
+    color: red;
+}
+.glyphicon-remove
+{
+    font-size: 20px;
+}
+.glyphicon:hover
+{
+    color: red;
+}
