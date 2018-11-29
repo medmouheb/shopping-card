@@ -14,8 +14,22 @@
             <div class="total-section">
                 <h2 class="total"></h2>
                 <span class="glyphicon glyphicon-shopping-cart"><span class="badge"></span></span>
+                <span class="glyphicon glyphicon-cloud-upload"></span>
             </div>
             <div class="items">
+                <div class="add-item">
+                    <div class="form-group">
+                        <label >Image src :</label>
+                        <input type="text" id="src-item" class="form-control new-item-src">
+                        <label >Title :</label>
+                        <input type="text" id="title-item" class="form-control new-item-title">
+                        <label >Discription :</label>
+                        <input type="text" id="description-item" class="form-control new-item-description">
+                        <label >Price :</label>
+                        <input type="text" id="price-item" class="form-control new-item-price">
+                        <button type="button" class="btn btn-success btn-lg" onclick="addMoreItems()">ADD</button>
+                    </div>
+                </div>
                 <div class="item">
                     <div class="love-hate-logo">
                         <span class="glyphicon glyphicon-heart"></span>
