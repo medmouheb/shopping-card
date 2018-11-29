@@ -30,6 +30,19 @@ main
 {
     font-size: 40px;
 }
+.glyphicon-cloud-upload
+{
+    font-size: 40px;
+}
+.add-item
+{
+    padding: 20px;
+}
+.btn-success
+{
+    margin-left: 450px;
+    margin-top: 40px;
+}
 .total
 {
     display: flex
